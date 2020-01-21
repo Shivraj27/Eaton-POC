@@ -42,8 +42,7 @@ const footer = (
         <ListItem>
             <ListItemText primary={Labels.Location} />
             <ListItemSecondaryAction>
-                {' '}
-                <ChevronRight />{' '}
+                <ChevronRight />
             </ListItemSecondaryAction>
         </ListItem>
     </List>
@@ -144,7 +143,7 @@ export default function Substation() {
                                 />
                                 <ChannelValue
                                     {...Config.status}
-                                    value={item.status}
+                                    value={item.commStatus}
                                 />
                             </div>
                             {/* Wrapper div for Aligning Hero content as per the mockup */}

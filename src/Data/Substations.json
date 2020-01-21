@@ -1,98 +1,62 @@
 [
     {
-        "title": "Substation 3",
+        "title": "Substation 1",
         "subtitle": "High Humidity Alarm",
         "deviceCount": 5,
         "alarmCount": 1,
         "eventCount": 1,
-        "status": "Online",
+        "commStatus": "Online",
         "values": {
             "temperature": 69,
             "humidity": 78
         }
     },
     {
+        "title": "Substation 2",
+        "subtitle": "Normal",
+        "deviceCount": 3,
+        "alarmCount": 0,
+        "eventCount": 3,
+        "commStatus": "Online",
+        "values": {
+            "volume": 3000,
+            "flow": 2.1
+        }
+    },
+    {
+        "title": "Substation 3",
+        "subtitle": "5 Alarms",
+        "deviceCount": 13,
+        "alarmCount": 5,
+        "eventCount": 23,
+        "commStatus": "Online",
+        "values": {
+            "temperature": 112,
+            "flow": 0.1
+        }
+    },
+    {
         "title": "Substation 4",
-        "subtitle": "Normal",
-        "deviceCount": 5,
-        "alarmCount": 0,
-        "eventCount": 2,
-        "status": "Online",
-        "values": {
-            "temperature": 71,
-            "humidity": 54
-        }
-    },
-    {
-        "title": "South Tin Mill",
-        "subtitle": "Normal",
-        "deviceCount": 2,
-        "alarmCount": 0,
-        "eventCount": 0,
-        "status": "Online",
-        "values": {
-            "flow": 5.5,
-            "volume": 1491
-        }
-    },
-    {
-        "title": "North Tin Mill",
-        "subtitle": "Normal",
+        "subtitle": "Disconnected",
         "deviceCount": 2,
         "alarmCount": null,
         "eventCount": null,
-        "status": "Offline",
+        "commStatus": "Offline",
         "values": {
-            "flow": 2.1,
-            "volume": 3000
+            "temperature": 80,
+            "humidity": null
         }
     },
     {
-        "title": "East Sheet Mill",
+        "title": "Substation 5",
         "subtitle": "Normal",
-        "deviceCount": 2,
+        "deviceCount": 1,
         "alarmCount": 0,
         "eventCount": 1,
-        "status": "Online",
+        "commStatus": "Online",
         "values": {
-            "flow": 2.1,
-            "volume": 3000
-        }
-    },
-    {
-        "title": "Neville Alley",
-        "subtitle": "Normal",
-        "deviceCount": 2,
-        "alarmCount": 0,
-        "eventCount": 1,
-        "status": "Online",
-        "values": {
-            "flow": 2.1,
-            "volume": 3000
-        }
-    },
-    {
-        "title": "North Sheet Mill",
-        "subtitle": "Normal",
-        "deviceCount": 2,
-        "alarmCount": 0,
-        "eventCount": 0,
-        "status": "Online",
-        "values": {
-            "flow": 2.1,
-            "volume": 3000
-        }
-    },
-    {
-        "title": "Substation 2",
-        "subtitle": "Normal",
-        "deviceCount": 5,
-        "alarmCount": 0,
-        "eventCount": 0,
-        "status": "Online",
-        "values": {
-            "temperature": 70,
-            "humidity": 41
+            "temperature": 68,
+            "humidity": 74
         }
     }
 ]
