@@ -1,0 +1,39 @@
+/* Alignment of Card layout */
+.card {
+    width: 345px;
+    margin: 5px;
+}
+
+/* Overrides of the pre-defined PxBlue classes in order to get the design as per the mockup */
+.channelContent {
+    display: grid;
+    position: absolute;
+    left: 10px;
+}
+.channelContent span {
+    line-height: 2;
+}
+.channelContent span h6 {
+    font-size: 16px;
+    margin-left: 10px;
+}
+.heroContent {
+    display: flex;
+}
+.heroContent span h6 {
+    font-size: 17px;
+}
+
+/* Media queries for proper alignment of card layout based on the respective resolution */
+@media screen and (min-width: 730px) and (max-width: 1040px) {
+    .card {
+        width: 345px;
+        margin: 5px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 720px) {
+    .card {
+        width: 100%;
+        margin: 5px;
+    }
+}

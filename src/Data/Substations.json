@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Substation 3",
+        "subtitle": "High Humidity Alarm",
+        "deviceCount": 5,
+        "alarmCount": 1,
+        "eventCount": 1,
+        "status": "Online",
+        "values": {
+            "temperature": 69,
+            "humidity": 78
+        }
+    },
+    {
+        "title": "Substation 4",
+        "subtitle": "Normal",
+        "deviceCount": 5,
+        "alarmCount": 0,
+        "eventCount": 3,
+        "status": "Online",
+        "values": {
+            "temperature": 71,
+            "humidity": 54
+        }
+    },
+    {
+        "title": "South Tin Mill",
+        "subtitle": "Normal",
+        "deviceCount": 2,
+        "alarmCount": 5,
+        "eventCount": 2,
+        "status": "Online",
+        "values": {
+            "flow": 5.5,
+            "volume": 1491
+        }
+    },
+    {
+        "title": "North Tin Mill",
+        "subtitle": "Normal",
+        "deviceCount": 2,
+        "alarmCount": null,
+        "eventCount": null,
+        "status": "Offline",
+        "values": {
+            "flow": 2.1,
+            "volume": 3000
+        }
+    },
+    {
+        "title": "East Sheet Mill",
+        "subtitle": "Normal",
+        "deviceCount": 2,
+        "alarmCount": 0,
+        "eventCount": 1,
+        "status": "Online",
+        "values": {
+            "flow": 2.1,
+            "volume": 3000
+        }
+    },
+    {
+        "title": "Neville Alley",
+        "subtitle": "Normal",
+        "deviceCount": 2,
+        "alarmCount": 0,
+        "eventCount": 1,
+        "status": "Online",
+        "values": {
+            "flow": 2.1,
+            "volume": 3000
+        }
+    },
+    {
+        "title": "North Sheet Mill",
+        "subtitle": "Normal",
+        "deviceCount": 2,
+        "alarmCount": 0,
+        "eventCount": 1,
+        "status": "Online",
+        "values": {
+            "flow": 2.1,
+            "volume": 3000
+        }
+    },
+    {
+        "title": "Substation 2",
+        "subtitle": "Normal",
+        "deviceCount": 5,
+        "alarmCount": 0,
+        "eventCount": 1,
+        "status": "Online",
+        "values": {
+            "temperature": 70,
+            "humidity": 41
+        }
+    }
+]
