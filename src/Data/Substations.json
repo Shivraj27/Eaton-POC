@@ -16,7 +16,7 @@
         "subtitle": "Normal",
         "deviceCount": 5,
         "alarmCount": 0,
-        "eventCount": 3,
+        "eventCount": 2,
         "status": "Online",
         "values": {
             "temperature": 71,
@@ -27,8 +27,8 @@
         "title": "South Tin Mill",
         "subtitle": "Normal",
         "deviceCount": 2,
-        "alarmCount": 5,
-        "eventCount": 2,
+        "alarmCount": 0,
+        "eventCount": 0,
         "status": "Online",
         "values": {
             "flow": 5.5,
@@ -76,7 +76,7 @@
         "subtitle": "Normal",
         "deviceCount": 2,
         "alarmCount": 0,
-        "eventCount": 1,
+        "eventCount": 0,
         "status": "Online",
         "values": {
             "flow": 2.1,
@@ -88,7 +88,7 @@
         "subtitle": "Normal",
         "deviceCount": 5,
         "alarmCount": 0,
-        "eventCount": 1,
+        "eventCount": 0,
         "status": "Online",
         "values": {
             "temperature": 70,

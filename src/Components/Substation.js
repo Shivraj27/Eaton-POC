@@ -34,7 +34,7 @@ import {
 import Substations from '../Data/Substations.json'
 import Classes from './Substation.module.css'
 import backgroundImage from '../Styles/Images/texture.jpg'
-import { Labels, Units, Defaults } from '../Data/Constants'
+import { Labels, Defaults } from '../Data/Constants'
 
 // Constant which returns the footer part of the Scorecard
 const footer = (
@@ -53,43 +53,44 @@ const footer = (
 const Config = {
     temperature: {
         icon: <Temp fontSize={'inherit'} htmlColor={Colors.black[500]} />,
-        units: Units.Temperature,
+        units: '°F',
         label: Labels.Temperature,
     },
     humidity: {
         icon: <Moisture fontSize={'inherit'} htmlColor={Colors.blue[200]} />,
-        units: Units.Humidity,
+        units: '%',
         label: Labels.Humidity,
     },
     flow: {
         icon: <Flow fontSize={'inherit'} htmlColor={Colors.black[300]} />,
-        units: Units.Flow,
+        units: 'KSCFH',
         label: Labels.Flow,
     },
     volume: {
         icon: (
             <GasCylinder fontSize={'inherit'} htmlColor={Colors.black[500]} />
         ),
-        units: Units.Volume,
+        units: 'KSCF',
         label: Labels.Volume,
     },
     alarm: {
         icon: <NotificationsActive />,
-        fontSize: 19,
+        fontSize: 22,
         color: ColorBrands.crimson['600'],
     },
     alarms: {
         icon: <Notifications />,
-        fontSize: 19,
-        color: Colors.black['700'],
+        fontSize: 22,
+        color: Colors.black['400'],
     },
     event: {
         icon: <Info />,
-        fontSize: 19,
+        fontSize: 22,
     },
     status: {
         icon: <CloudCircle />,
-        fontSize: 19,
+        fontSize: 22,
+        color: Colors.black['400'],
     },
 }
 
@@ -105,8 +106,8 @@ export default function Substation() {
                 <ScoreCard
                     headerColor={
                         isAlarm
-                            ? ColorBrands.crimson['600']
-                            : Colors.lightBlue['500']
+                            ? ColorBrands.crimson['500']
+                            : Colors.lightBlue['400']
                     }
                     headerTitle={item.title}
                     headerSubtitle={item.subtitle}
@@ -137,8 +138,8 @@ export default function Substation() {
                                     }
                                     color={
                                         isEvent
-                                            ? Colors.lightBlue['600']
-                                            : Colors.black['500']
+                                            ? Colors.lightBlue['500']
+                                            : Colors.black['400']
                                     }
                                 />
                                 <ChannelValue

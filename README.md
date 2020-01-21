@@ -1,6 +1,6 @@
 # github link
 
-# url : https://github.com/Shivraj27/PxBlue
+# url : https://github.com/Shivraj27/Eaton-POC
 
 # Steps to follow for running the application
 

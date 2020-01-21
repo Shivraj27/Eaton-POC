@@ -10,14 +10,6 @@ export const Labels = {
     Device: ' Devices',
 }
 
-// Constants used for defining Units
-export const Units = {
-    Temperature: '°F',
-    Humidity: '%',
-    Flow: 'KSCFH',
-    Volume: 'KSCF',
-}
-
 // Constants used for defining Default values
 export const Defaults = {
     alarm: '0 Alarms',
